@@ -31,7 +31,9 @@ Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and a
 5.Repeat steps 2-4 for each bit you want to input and shift.
 
 **PROGRAM**
+
 Developed by:Muthulakshmi D RegisterNumber:212223040122
+
 ```
 module ex10(clk, sin, q);
 input clk;
@@ -47,6 +49,7 @@ q[3] <= q[2];
 end
 endmodule
 ```
+
 **RTL LOGIC FOR SISO Shift Register**
 ![328033137-0c2bc22b-0c73-4df6-a053-2fb37f69fa77](https://github.com/user-attachments/assets/1573c8ec-6a7d-4391-ad46-9a0a69dfb3c9)
 
